@@ -12,4 +12,4 @@ valor_total = float(input('digite o valor total:'))
 porcentagem =float(input('digite a porcentagem de produto:'))
 desconto = valor_total * (porcentagem /100)
 valor_novo = valor_total - desconto
-print(valor_novo)
+print(f'O {produto} com {porcentagem}% de desconto custará :R${valor_novo}')
